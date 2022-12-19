@@ -1,8 +1,19 @@
 class Cat{
     private String name;
 
-    private void name() {
-        System.out.println(name);
+    public void cat() {
+    
+    }
+
+    public void cat(String name) {
+        this.name = name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void run() {
         System.out.println(name);
     }
 }
