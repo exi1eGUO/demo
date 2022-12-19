@@ -1,7 +1,8 @@
 class Cat{
-    private int a;
+    private String name;
 
     private void name() {
-        System.out.println(a);
+        System.out.println(name);
+        System.out.println(name);
     }
 }
