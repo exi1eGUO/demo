@@ -1,11 +1,13 @@
-class Cat{
+package main.java.com.czx.entity;
+
+public class Cat{
     private String name;
 
-    public void cat() {
+    public Cat() {
     
     }
 
-    public void cat(String name) {
+    public Cat(String name) {
         this.name = name;
     }
 
